@@ -21,8 +21,8 @@
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/devopsfetch.git
-cd devopsfetch
+git clone https://github.com/web081/Devops-MID-fetch-TASK.git
+cd Devops-MID-fetch-TASK
 ```
 ### Step 2: Set Up a Virtual Environment
 ```
@@ -88,5 +88,6 @@ sudo systemctl enable devopsfetch.service
 sudo systemctl start devopsfetch.service
 ```
 ### Check status
-``` sudo systemctl status devopsfetch.service
+``` 
+sudo systemctl status devopsfetch.service
 ```
