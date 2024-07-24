@@ -1,0 +1,13 @@
+[Unit]
+Description=DevOps Fetch Service
+After=network.target
+
+[Service]
+ExecStart=/Users/mac/Desktop/screenshot/internship app/devopsfetch/venv/bin/python /Users/mac/Desktop/screenshot/internship app/devopsfetch/devopsfetch.py
+Restart=always
+User=root
+Environment=PATH=/Users/mac/Desktop/screenshot/internship app/devopsfetch/venv/bin
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
