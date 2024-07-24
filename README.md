@@ -66,6 +66,9 @@ python devopsfetch.py -n example.com  # Display Nginx configuration for a domain
 python devopsfetch.py -u username  # Display user information
 python devopsfetch.py -t "start_time end_time"  # Display activities within a time range
 ```
+- ** Result from the Terminal after successful
+ ![Terminal Result output](img/fetch.png)
+
 ### Using Docker
 - ** Build the Docker Image
 ```
