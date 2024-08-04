@@ -1,4 +1,4 @@
-# DevOps Fetch for HNG11 Stage 5
+# DevOps Fetch for monitoring and retrieving system information
 
 `devopsfetch` is a powerful tool for monitoring and retrieving system information, designed for DevOps professionals. It collects and displays data on active ports, Docker images and containers, Nginx configurations, user logins, and activities within a specified time range. It also includes a systemd service for continuous monitoring and logging.
 
